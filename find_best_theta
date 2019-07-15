@@ -1,0 +1,13 @@
+
+#!/bin/bash
+#
+
+##script to compare theta indices during Moving and NotMoving conditions
+
+aws s3 cp s3://$1 ./RawData/ --exclude '*' --include '*.Ncs' --recursive
+ 
+
+for filename in ./RawData/*.Ncs; do
+    echo "Finding Theta Starts for  $filename"
+    python Moving_vs_NotMoving.py "$filename" 
+done

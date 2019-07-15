@@ -1,0 +1,9 @@
+
+#!/bin/bash
+# script to place location firing
+
+
+for filename in ./RawData/*.t; do
+   echo "$filename"
+   python LapByLapSpikes.py $filename $1 $2
+done 

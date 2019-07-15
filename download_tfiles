@@ -1,0 +1,7 @@
+
+#!/bin/bash
+#script to process video tracking files
+
+aws s3 cp s3://$1 ./RawData/ --exclude '*' --include '*.t' --recursive
+ 
+#python VideoTracker.py ./RawData/VT1.nvt

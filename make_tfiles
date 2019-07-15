@@ -1,0 +1,13 @@
+
+#!/bin/bash
+# script to run tetrode cutting on MS
+
+#tfile="1"
+#echo "$tfile"
+
+#for filename in ./interneuron/*firings.curated.mda; do
+for filename in ./RawData/*firings.mda; do
+   echo "$filename"
+   python MakeTFiles.py $filename
+#   python ShowWaveform.py $filename
+done 

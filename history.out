@@ -1,0 +1,1000 @@
+  994  python MakeTFiles.py "./RawData/Sc10.ntt"
+  995  history
+  996  vim show_placefields.py
+  997  ls 
+  998  vim show_placefields
+  999  more cut_dataset
+ 1000  vim show_placefields
+ 1001  ./show_placefields "45326" "180752"
+ 1002  ls
+ 1003  mlpipeline
+ 1004  more show_placefields
+ 1005  cp LayByLapSpikes.py OutputTrajectories.py
+ 1006  cp LapByLapSpikes.py OutputTrajectories.py
+ 1007  vim OutputTrajectories.py
+ 1008  ls ./RawData
+ 1009  ls data
+ 1010  cp Sc10.ntt.cluster_metrics.json ../cluster_metrics.json
+ 1011  cp ..RawData/Sc10.ntt.cluster_metrics.json ../cluster_metrics.json
+ 1012  cp ./RawData/Sc10.ntt.cluster_metrics.json ../cluster_metrics.json
+ 1013  cp ./RawData/Sc10.ntt.cluster_metrics.json ./cluster_metrics.json
+ 1014  pwd
+ 1015  cp ./RawData/Sc10.ntt.cluster_metrics.json ./
+ 1016  ls
+ 1017  mv Sc10.ntt.cluster_metrics.json cluster_metrics.json
+ 1018  ls
+ 1019  vim OutputTrajectories.py
+ 1020  more show_placefields
+ 1021  vim show_placefields
+ 1022  vim LapByLapSpikes.py
+ 1023  vim OutputTrajectories.py
+ 1024  python OutputTrajectories.py 74795
+ 1025  pwd
+ 1026  ls ./RawData/VT1.Nvt
+ 1027  lz
+ 1028  ls
+ 1029  python OutputTrajectories.py 74795
+ 1030  vim OutputTrajectories.py
+ 1031  python OutputTrajectories.py 45000
+ 1032  python OutputTrajectories.py "45000"
+ 1033  vim OutputTrajectories.py
+ 1034  python OutputTrajectories.py "45000"
+ 1035  vim OutputTrajectories.py
+ 1036  python OutputTrajectories.py "45000"
+ 1037  ls 
+ 1038  ls ./RawData
+ 1039  ls ./RawData/*.npz
+ 1040  cd ..
+ 1041  ls 
+ 1042  pwd
+ 1043  cd alext
+ 1044  ls
+ 1045  more testS3
+ 1046  ls testS3
+ 1047  ls
+ 1048  vim curate_tetrode
+ 1049  python OutputTrajectories.py "45000"
+ 1050  ./curate_dataset "narp-alext/10547/2018-5-4_12-21-13" "32051"
+ 1051  ./cut_dataset "narp-alext/10547/2018-5-4_12-21-13" "true" "32051"
+ 1052  ./cut_dataset "narp-alext/10547/2018-5-4_12-21-13" "trfalse" "32051"
+ 1053  ./cut_dataset "narp-alext/10547/2018-5-4_12-21-13" "trtrue" "32051"
+ 1054  ls
+ 1055  rm cluster_metrics.json
+ 1056  ls ./RawData
+ 1057  vim cut_tetrode
+ 1058  ./cut_dataset "narp-alext/10547/2018-5-4_12-21-13" "true" "32051"
+ 1059  ./curate_dataset "narp-alext/10547/2018-5-4_12-21-13"  "32051"
+ 1060  vim curete_tetrode
+ 1061  vim curate_tetrode
+ 1062  ls
+ 1063  cd code
+ 1064  ls
+ 1065  rm shithead.out
+ 1066  more EEGFromFlags.py
+ 1067  ls
+ 1068  more Moving_vs_NotMoving.py
+ 1069  cp Moving_vs_NotMoving.py ../
+ 1070  cd ..
+ 1071  ls 
+ 1072  cd code
+ 1073  ls
+ 1074  cp EEGUtils.py ../
+ 1075  cd ..
+ 1076  vim Moving_vs_NotMoving.py
+ 1077  ls
+ 1078  vim OuputTrajectories.py
+ 1079  vim OutputTrajectories.py
+ 1080  python OutputTrajectories.py "45000"
+ 1081  vim OutputTrajectories.py
+ 1082  python OutputTrajectories.py "45000", "180752"
+ 1083  ls ./RawData/*.Nvt
+ 1084  ls ./RawData
+ 1085  ./view_video "narp-alext/10547/2018-5-4_12-21-13"  
+ 1086  python OutputTrajectories.py "45000", "180752"
+ 1087  python OutputTrajectories.py "45000" "180752"
+ 1088  ls *.npz
+ 1089  vim OutputTrajectories.py
+ 1090  ls -l *.npz
+ 1091  python OutputTrajectories.py "45000" "180752"
+ 1092  ls -l *.npz
+ 1093  ls -l ./RawData/VT1*
+ 1094  vim OutputTrajectories.py
+ 1095  ls *.npz
+ 1096  rm *.npz
+ 1097  python OutputTrajectories.py "45000" "180752"
+ 1098  ls ./RawData/*.npz
+ 1099  ls -l ./RawData/*.npz
+ 1100  ls
+ 1101  more Moving_vs_NotMoving.py
+ 1102  vim Moving_vs_NotMoving.py
+ 1103  cp cut_dataset find_best_theta
+ 1104  vim find_best_theta
+ 1105  ./find_best_theta
+ 1106  vim find_best_theta
+ 1107  ./find_best_theta
+ 1108  vim find_best_theta
+ 1109  ./find_best_theta "narp-alext/10547/2018-5-4_12-21-13"  
+ 1110  vim find_best_theta
+ 1111  ./find_best_theta "narp-alext/10547/2018-5-4_12-21-13"  
+ 1112  ls code
+ 1113  more EEGUtils.py
+ 1114  vim EEGUtils.py
+ 1115  ./find_best_theta "narp-alext/10547/2018-5-4_12-21-13"  
+ 1116  vim find_best_theta
+ 1117  vim Moving_vs_NotMoving.py
+ 1118  ./find_best_theta "narp-alext/10547/2018-5-4_12-21-13"  
+ 1119  vim Moving_vs_NotMoving.py
+ 1120  ./find_best_theta "narp-alext/10547/2018-5-4_12-21-13"  
+ 1121  vim Moving_vs_NotMoving.py
+ 1122  ./find_best_theta "narp-alext/10547/2018-5-4_12-21-13"  
+ 1123  vim Moving_vs_NotMoving.py
+ 1124  ./find_best_theta "narp-alext/10547/2018-5-4_12-21-13"  
+ 1125  vim Moving_vs_NotMoving.py
+ 1126  ./find_best_theta "narp-alext/10547/2018-5-4_12-21-13"  
+ 1127  vim Moving_vs_NotMoving.py
+ 1128  ./find_best_theta "narp-alext/10547/2018-5-4_12-21-13"  
+ 1129  vim Moving_vs_NotMoving.py
+ 1130  ./find_best_theta "narp-alext/10547/2018-5-4_12-21-13"  
+ 1131  ./cut_dataset "narp-alext/10547/2018-5-16_13-24-24" "true" "32051"
+ 1132  ls ./RawData
+ 1133  ls
+ 1134  ls testS3
+ 1135  ls testS3/*
+ 1136  ls
+ 1137  ls Sample
+ 1138  rm -r Sample
+ 1139  ls Sample
+ 1140  ls output
+ 1141  ls data
+ 1142  ls -l ./RawData
+ 1143  ls
+ 1144  vim 32051.json
+ 1145  ./cut_dataset "narp-alext/10547/2018-5-16_13-24-24" "true" "32051"
+ 1146  ls
+ 1147  ./view_video "narp-alext/10547/2018-5-16_13-24-24"
+ 1148  cd RawData
+ 1149  ls
+ 1150  rm *.*
+ 1151  cd ..
+ 1152  ./view_video "narp-alext/10547/2018-5-16_13-24-24"
+ 1153  ls
+ 1154  python VideoSliderPlot 1
+ 1155  python VideoSliderPlot.py 1
+ 1156  ls
+ 1157  ./cut_dataset "narp-alext/10547/2018-5-4_12-21-13" "true" "32051"
+ 1158  ./curate_dataset "narp-alext/10547/2018-5-4_12-21-13"  "32051"
+ 1159  ./cut_dataset "narp-alext/10547/2018-5-4_12-21-13" "true" "32051"
+ 1160  ./curate_dataset "narp-alext/10547/2018-5-4_12-21-13" "32051"
+ 1161  ls
+ 1162  ./make_tfiles
+ 1163  sudo mlp-larinet
+ 1164  vim curate_tetrode
+ 1165  ./cut_dataset "narp-alext/10547/2018-5-4_12-21-13" "true" "32051"
+ 1166  ls 
+ 1167  more cluster_metrics.json
+ 1168  vim cut_tetrode
+ 1169  vim cut_dataset
+ 1170  vim cut_tetrode
+ 1171  ./cut_dataset "narp-alext/10547/2018-5-4_12-21-13" "true" "32051"
+ 1172  ls ./RawData
+ 1173  ./curate_dataset "narp-alext/10547/2018-5-4_12-21-13" "32051"
+ 1174  ls
+ 1175  more curate_tetrode
+ 1176  vim curate_tetrode
+ 1177  ./curate_dataset "narp-alext/10547/2018-5-4_12-21-13" "32051"
+ 1178  vim curate_tetrode
+ 1179  ./curate_dataset "narp-alext/10547/2018-5-4_12-21-13" "32051"
+ 1180  vim curate_tetrode
+ 1181  ./curate_dataset "narp-alext/10547/2018-5-4_12-21-13" "32051"
+ 1182  more curate_tetrode
+ 1183  vim curate_tetrode
+ 1184  ./curate_dataset "narp-alext/10547/2018-5-4_12-21-13" "32051"
+ 1185  ./view_video "narp-alext/10547/2018-5-4_12-21-13"
+ 1186  ls
+ 1187  vim OutputTrajectories.py
+ 1188  more Moving_vs_NotMoving.py
+ 1189  ls 
+ 1190  cd cide
+ 1191  cd code
+ 1192  ls
+ 1193  more PlotmsResults.py
+ 1194  ls
+ 1195  cd ..
+ 1196  ls
+ 1197  more Moving_vs_NotMoving.py
+ 1198  cd code
+ 1199  ls
+ 1200  more PlotmsResults.py
+ 1201  ls
+ 1202  cd ..
+ 1203  ls ./RawData/*.npz
+ 1204  ls *.py
+ 1205  more OutputTrajectories.py
+ 1206  ls code
+ 1207  ls ./RawData/*.npz
+ 1208  ls -l ./RawData/*.npz
+ 1209  ls
+ 1210  ./cut_dataset "narp-alext/10547/2018-5-16_13-24-24" "true" "32051"
+ 1211  ./curate_dataset "narp-alext/10547/2018-5-16_13-24-24"  "32051"
+ 1212  ls
+ 1213  ./cut_dataset "narp-alext/10547/2018-5-16_13-24-24/Subset" "true" "32051"
+ 1214  aws s3 ls s3://
+ 1215  aws s3 ls s3://narp_alext
+ 1216  vim cut_and_curate
+ 1217  aws s3 ls s3://narp_alext
+ 1218  vim cut_and_curate
+ 1219  ls ./RawData
+ 1220  rm -r ./RawData/*
+ 1221  y
+ 1222  ./cut_dataset "narp-alext/10547/2018-5-18_11-15-5" "true" "32051"
+ 1223  ls ./RawData
+ 1224  ./curate_dataset "narp-alext/10547/2018-5-18_11-15-5" "32051"
+ 1225  ls ./RawData/
+ 1226  rm ./RawData/*
+ 1227  ls
+ 1228  cp cut_dataset cut_and_curate
+ 1229  vim cut_and_curate
+ 1230  ./cut_and_curate "narp-alext/10547/2018-5-18_11-15-5" "true" "32051"
+ 1231  vim cut_and_curate
+ 1232  ./cut_and_curate "narp-alext/10547/2018-5-18_11-15-5" "true" "32051"
+ 1233  ./cut_and_curate "narp-alext/10547/2018-5-18_11-15-5/" "true" "32051"
+ 1234  ./cut_and_curate "narp-alext/10547/2018-5-18_d11-15-5/" "true" "32051"
+ 1235  vim cut_and_curate
+ 1236  ./cut_and_curate "narp-alext/10547/2018-5-18_d11-15-5/" "true" "32051"
+ 1237  vim cut_and_curate
+ 1238  ./cut_and_curate "narp-alext/10547/2018-5-18_d11-15-5/" "true" "32051"
+ 1239  ./cut_and_curate "narp-alext/10547/2018-5-18_d11-15-5" "true" "32051"
+ 1240  ./cut_and_curate "narp-alext/10547/2018-5-18_d11-15-5" "true" "32051"
+ 1241  ./cut_and_curate "narp-alext/10547/2018-5-18_11-15-5" "true" "32051"
+ 1242  aws s3 ls s3://narp-alext/10547/2018-5-18_11-15-5/
+ 1243  aws s3 ls s3://narp-alext/10547/2018-5-18_11-15-5/*.ntt
+ 1244  ./cut_and_curate "narp-alext/10547/2018-5-18_11-15-5" "true" "32051"
+ 1245  aws s3 ls s3://narp-alext/10547/2018-5-18_11-15-5/
+ 1246  aws s3 ls s3://narp-alext/10547/2018-5-18_11-15-5/*.ntt
+ 1247  aws s3 ls s3://narp-alext/10547/2018-5-18_11-15-5/
+ 1248  test = aws s3 ls s3://narp-alext/10547/2018-5-18_11-15-5/
+ 1249  vim cut_and_curate
+ 1250  ./cut_and_curate "narp-alext/10547/2018-5-18_11-15-5" "true" "32051"
+ 1251  vim cut_and_curate
+ 1252  ./cut_and_curate "narp-alext/10547/2018-5-18_11-15-5" "true" "32051"
+ 1253  vim cut_and_curate
+ 1254  ./cut_and_curate "narp-alext/10547/2018-5-18_11-15-5" "true" "32051"
+ 1255  vim cut_and_curate
+ 1256  ./cut_and_curate "narp-alext/10547/2018-5-18_11-15-5" "true" "32051"
+ 1257  vim cut_and_curate
+ 1258  ./cut_and_curate "narp-alext/10547/2018-5-18_11-15-5" "true" "32051"
+ 1259  vim cut_and_curate
+ 1260  ./cut_and_curate "narp-alext/10547/2018-5-18_11-15-5" "true" "32051"
+ 1261  ls ./RawData
+ 1262  vim cut_and_curate
+ 1263  ./cut_and_curate "narp-alext/10547/2018-5-18_11-15-5" "true" "32051"
+ 1264  vim cut_and_curate
+ 1265  aws s3 cp s3://narp-alext/10547/2018-5-18_11-15-5 --exclue '*' --include 'Sc1.ntt'
+ 1266  aws s3 cp s3://narp-alext/10547/2018-5-18_11-15-5 --exclude '*' --include 'Sc1.ntt'
+ 1267  aws s3 cp s3://narp-alext/10547/2018-5-18_11-15-5 --exclude '*' --include '*.ntt'
+ 1268  aws s3 cp s3://narp-alext/10547/2018-5-18_11-15-5 ./RawData/--exclude '*' --include '*.ntt'
+ 1269  aws s3 cp s3://narp-alext/10547/2018-5-18_11-15-5 ./RawData/ --exclude '*' --include '*.ntt'
+ 1270  aws s3 cp s3://narp-alext/10547/2018-5-18_11-15-5/ ./RawData/ --exclude '*' --include '*.ntt'
+ 1271  ls ./RawData
+ 1272  aws s3 cp s3://narp-alext/10547/2018-5-18_11-15-5/ ./RawData/ --exclude '*' --include '*.ntt' --recursive
+ 1273  aws s3 cp s3://narp-alext/10547/2018-5-18_11-15-5/ ./RawData/ --exclude '*' --include 'Sc1.ntt' --recursive
+ 1274  aws s3 cp s3://narp-alext/10547/2018-5-18_11-15-5 ./RawData/ --exclude '*' --include 'Sc1.ntt' --recursive
+ 1275  ./cut_and_curate "narp-alext/10547/2018-5-18_11-15-5" "true" "32051"
+ 1276  l
+ 1277  ls
+ 1278  rm *.log
+ 1279  ./find_best_theta "narp-alext/10547/2018-5-4_12-21-13"
+ 1280  ls ./RawData
+ 1281  rm ./RawData/*
+ 1282  ./view_video "narp-alext/10547/2018-5-4_12-21-13"
+ 1283  ls
+ 1284  history
+ 1285  vim view_video
+ 1286  ls *.py
+ 1287  vim VideoSliderPlot.py
+ 1288  python VideoSliderPlot.py 1
+ 1289  vim VideoSliderPlot.py
+ 1290  vim ./RawData/sleep_epochs.txt
+ 1291  more sleep_epochs.txt
+ 1292  more ./RawData/sleep_epochs.txt
+ 1293  vim ./RawData/sleep_epochs.txt
+ 1294  more ./RawData/sleep_epochs.txt
+ 1295  vim OutputTrajectories.py
+ 1296  ls ./RawData/*.txt
+ 1297  python OutputTrajectories.py
+ 1298  vim OutputTrajectories.py
+ 1299  python OutputTrajectories.py
+ 1300  vim OutputTrajectories.py
+ 1301  python OutputTrajectories.py
+ 1302  vim OutputTrajectories.py
+ 1303  python OutputTrajectories.py
+ 1304  vim OutputTrajectories.py
+ 1305  python OutputTrajectories.py
+ 1306  vim OutputTrajectories.py
+ 1307  python OutputTrajectories.py
+ 1308  vim OutputTrajectories.py
+ 1309  python OutputTrajectories.py
+ 1310  vim OutputTrajectories.py
+ 1311  python OutputTrajectories.py 45326 180752
+ 1312  vim OutputTrajectories.py
+ 1313  python OutputTrajectories.py 45326 180752
+ 1314  ls
+ 1315  ls ./RawData/
+ 1316  rm ./RawData/sleep_epochs.txt
+ 1317  python OutputTrajectories.py 45326 180752
+ 1318  ls ./RawData/
+ 1319  ./find_best_theta "narp-alext/10547/2018-5-4_12-21-13"
+ 1320  mv ./RawData/CSCLFP2.Ncs ./RawData/BestTheta.Ncs
+ 1321  ls CSC*
+ 1322  ls .RawData/CSC*
+ 1323  ls ./RawData/CSC*
+ 1324  rm ./RawData/CSC*
+ 1325  ls ./RawData
+ 1326  cd RawData
+ 1327  ls
+ 1328  cd ..
+ 1329  mkdir 05-04POS
+ 1330  cp ./RawData/*.* ./05-04POS
+ 1331  rm ./RawData/*
+ 1332  ./cut_dataset "narp-alext/10547/2018-5-18_11-15-5" "true" "32051"
+ 1333  ./curate_dataset "narp-alext/10547/2018-5-18_11-15-5" "32051"
+ 1334  ./cut_dataset "narp-alext/10547/2018-5-16_10-2-23" "true" "32051"
+ 1335  ls ./RawData/
+ 1336  ./cut_dataset "narp-alext/10547/2018-5-15_8-43-49" "true" "32051"
+ 1337  ./curate_dataset "narp-alext/10547/2018-5-15_8-43-49" "true" "32051"
+ 1338  ls ./RawData
+ 1339  ls -l  ./RawData 
+ 1340  vim PrintHeader.py
+ 1341  ls
+ 1342  cd code
+ 1343  vim PrintHeader.py
+ 1344  cd ..
+ 1345  ls
+ 1346  ls code
+ 1347  cd code
+ 1348  vim PrintHeader.py
+ 1349  ls PrintHeader.py
+ 1350  vim PrintHeader.py
+ 1351  python PrintHeader.py
+ 1352  cd ..
+ 1353  ./cut_dataset "narp-alext/10547/2018-5-4_12-21-13" "true" "32051"
+ 1354  cd code
+ 1355  python PrintHeader.py
+ 1356  ./cut_dataset "narp-alext/10547/2018-5-15_8-43-49" "true" "32051"
+ 1357  cd ..
+ 1358  ./cut_dataset "narp-alext/10547/2018-5-15_8-43-49" "true" "32051"
+ 1359  cd code
+ 1360  python PrintHeader.py
+ 1361  python PrintHeader.py > goodone.out
+ 1362  mv goodone.out badone.out
+ 1363  cd ..
+ 1364  ./cut_dataset "narp-alext/10547/2018-5-4_12-21-13" "true" "32051"
+ 1365  cd code
+ 1366  python PrintHeader.py > goodone.out
+ 1367  more goodone.out
+ 1368  ls ./RawData/*.ntt
+ 1369  python PrintHeader.py
+ 1370  more badone.txt
+ 1371  cd code
+ 1372  more badone.txt
+ 1373  ls
+ 1374  more badone.out
+ 1375  more goodone.txt
+ 1376  more goodone.out
+ 1377  ls
+ 1378  ls 05-04POS
+ 1379  ls ./RawData
+ 1380  ./cut_dataset "narp-alext/10547/2018-5-4_12-21-13" "true" "32051"
+ 1381  ls
+ 1382  cd ./RawData
+ 1383  ls -l
+ 1384  rm ./RawData/*
+ 1385  cd ..
+ 1386  rm ./RawData/*
+ 1387  ls
+ 1388  ./cut_dataset "narp-alext/10547/2018-5-4_12-21-13" "true" "32051"
+ 1389  ./curate_dataset "narp-alext/10547/2018-5-4_12-21-13" "32051"
+ 1390  ls *.py
+ 1391  more MakeTFiles.py
+ 1392  python MakeTFiles.py
+ 1393  ls
+ 1394  ./make_tfiles
+ 1395  ls
+ 1396  more show_placefields
+ 1397  ./show_placefields 45300 180752
+ 1398  ./view_video "narp-alext/10547/2018-5-4_12-21-13"
+ 1399  ./show_placefields 45300 180752
+ 1400  ls 05*
+ 1401  ls
+ 1402  more show_placefields
+ 1403  vim LapByLapSpikes.py
+ 1404  cp LapByLapSpikes.py PhaseProcession.py
+ 1405  mv PhaseProcession.py PhasePrecession.py
+ 1406  vim PhasePrecession.py
+ 1407  ls
+ 1408  cd code
+ 1409  ls Theta*
+ 1410  cp ThetaPeaks.py ../
+ 1411  ls
+ 1412  vim ThetaPeaks.py
+ 1413  python ThetaPeaks.py
+ 1414  sudo apt-get peakutils
+ 1415  ls ../../
+ 1416  ls ../
+ 1417  ls ..//Downloads
+ 1418  cd ../Downloads
+ 1419  ls
+ 1420  unzip peakutils-v1.1.0.zi[
+ 1421  unzip peakutils-v1.1.0.zip
+ 1422  ls *.py
+ 1423  python setup.py install
+ 1424  ls setup.py
+ 1425  ls *.py
+ 1426  more README.rst
+ 1427  ls
+ 1428  cd lucas*
+ 1429  more README.rst
+ 1430  python setup.py install
+ 1431  sudo python setup.py install
+ 1432  cd ..
+ 1433  ls
+ 1434  more ThetaPeaks.py
+ 1435  python ThetaPeaks.py
+ 1436  pwd
+ 1437  vim ThetaPeaks.py
+ 1438  python ThetaPeaks.py "./0504POS/BestTheta.csc"
+ 1439  ls 0504
+ 1440  ls 0504*
+ 1441  ls
+ 1442  python ThetaPeaks.py "./05-04POS/BestTheta.csc"
+ 1443  ld 05*
+ 1444  ls 05*
+ 1445  python ThetaPeaks.py "./05-04POS/BestTheta.Ncs"
+ 1446  ls
+ 1447  ls *.npz
+ 1448  ls -l *.npz
+ 1449  cd code
+ 1450  ls
+ 1451  more PeakDetection.py
+ 1452  ls ..
+ 1453  ls 05*
+ 1454  cd ..
+ 1455  ls 05*
+ 1456  ls *.npz
+ 1457  mv thetapeaks.npz ./0504POS/
+ 1458  mv thetapeaks.npz ./0504POS/*
+ 1459  cp thetapeaks.npz ./0504POS/*
+ 1460  cp thetapeaks.npz ./0504POS/
+ 1461  cp thetapeaks.npz ./05-04POS/
+ 1462  rm thetapeaks.npz
+ 1463  ls 05-40POPS
+ 1464  ls 05-04POS
+ 1465  cd 05*
+ 1466  python
+ 1467  ls
+ 1468  cd ..
+ 1469  ls
+ 1470  more find_best_theta
+ 1471  ls 
+ 1472  ls 05*
+ 1473  pyhton VideoSliderPlot.py
+ 1474  python VideoSliderPlot.py
+ 1475  python VideoSliderPlot.py 1
+ 1476  grep np.load *.py
+ 1477  more Moving_vs_NotMoving.py
+ 1478  cd code
+ 1479  grep theta_peaks *.py
+ 1480  more EventPhases.py
+ 1481  more EEGUtils.py
+ 1482  more EventPhases.py
+ 1483  more EEGUtils.py
+ 1484  grep returnPhases *.p
+ 1485  grep returnPhases *.py
+ 1486  more EventPhases.py
+ 1487  more EEGUtils.py
+ 1488  cd ..
+ 1489  ls
+ 1490  more PhasePrecession.py
+ 1491  more EEGUtils.py
+ 1492  ls *.py
+ 1493  vim PhasePrecession.py
+ 1494  more LapByLapSpikes.py
+ 1495  ls
+ 1496  more ThetaPeaks.py
+ 1497  ls *.py
+ 1498  vim PhasePrecession.py
+ 1499  ls ./RawData/*.t
+ 1500  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1501  vim PhasePrecession.py
+ 1502  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1503  vim PhasePrecession.py
+ 1504  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1505  vim PhasePrecession.py
+ 1506  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1507  vim PhasePrecession.py
+ 1508  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1509  vim PhasePrecession.py
+ 1510  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1511  vim PhasePrecession.py
+ 1512  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1513  vim PhasePrecession.py
+ 1514  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1515  vim PhasePrecession.py
+ 1516  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1517  vim PhasePrecession.py
+ 1518  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1519  vim PhasePrecession.py
+ 1520  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1521  vim PhasePrecession.py
+ 1522  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1523  vim PhasePrecession.py
+ 1524  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1525  vim PhasePrecession.py
+ 1526  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1527  vim PhasePrecession.py
+ 1528  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1529  vim PhasePrecession.py
+ 1530  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1531  vim PhasePrecession.py
+ 1532  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1533  vim PhasePrecession.py
+ 1534  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1535  vim PhasePrecession.py
+ 1536  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1537  vim PhasePrecession.py
+ 1538  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1539  vim PhasePrecession.py
+ 1540  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1541  vim PhasePrecession.py
+ 1542  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1543  vim PhasePrecession.py
+ 1544  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1545  vim PhasePrecession.py
+ 1546  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1547  vim PhasePrecession.py
+ 1548  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1549  vim PhasePrecession.py
+ 1550  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1551  vim PhasePrecession.py
+ 1552  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1553  vim PhasePrecession.py
+ 1554  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1555  vim PhasePrecession.py
+ 1556  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1557  vim PhasePrecession.py
+ 1558  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1559  vim PhasePrecession.py
+ 1560  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1561  vim PhasePrecession.py
+ 1562  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1563  vim PhasePrecession.py
+ 1564  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1565  vim PhasePrecession.py
+ 1566  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1567  vim PhasePrecession.py
+ 1568  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1569  vim PhasePrecession.py
+ 1570  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1571  vim PhasePrecession.py
+ 1572  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1573  vim PhasePrecession.py
+ 1574  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1575  vim PhasePrecession.py
+ 1576  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1577  vim PhasePrecession.py
+ 1578  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1579  vim PhasePrecession.py
+ 1580  python PhasePrecession.py "./RawData/Sc11_5.t"
+ 1581  vim PhasePrecession.py
+ 1582  ./cut_dataset "narp-alext/10547/2018-5-22_11-54-25" "true" "32051"
+ 1583  ./cut_dataset "narp-alext/10547/2018-5-22_11-54-25" "32051"
+ 1584  ls ./RawData
+ 1585  ./cut_dataset "narp-alext/10547/2018-5-22_11-54-25" "true" "32051"
+ 1586  ./curate_dataset "narp-alext/10547/2018-5-22_11-54-25"  "32051"
+ 1587  ls
+ 1588  cd code
+ 1589  ls
+ 1590  vim MakeFskeTimeseries.py
+ 1591  vim MakeFakeTimeseries.py
+ 1592  cp MakeFakeTimeseries.py ../
+ 1593  cd ..
+ 1594  ls
+ 1595  python MakeFaceTimeseries.py ./RawData/Sc11.ntt
+ 1596  ls ./RawData
+ 1597  python MakeFaceTimeseries.py "./RawData/Sc11.ntt"
+ 1598  python MakeFakeTimeseries.py "./RawData/Sc11.ntt"
+ 1599  ls *.json
+ 1600  more params.json
+ 1601  more 32051.json
+ 1602  vim 32051.json 
+ 1603  ./cut_dataset "narp-alext/10547/2018-5-22_11-54-25" "false "32051"
+ 1604  ./cut_dataset "narp-alext/10547/2018-5-22_11-54-25" "false' "32051"
+ 1605  ./cut_dataset "narp-alext/10547/2018-5-22_11-54-25" "false" "32051"
+ 1606  ls ./RawData
+ 1607  ./curate_dataset "narp-alext/10547/2018-5-22_11-54-25" "32051"
+ 1608  more curate_tetrode
+ 1609  vim curate_tetrode
+ 1610  ./curate_dataset "narp-alext/10547/2018-5-22_11-54-25" "32051"
+ 1611  ./cut_dataset "narp-alext/10547/2018-5-22_11-54-25" "true" "32051"
+ 1612  ./cut_dataset "narp-alext/10547/2018-5-4_12-21-13" "true" "32051"
+ 1613  ./curate_dataset "narp-alext/10547/2018-5-4_12-21-13"  "32051"
+ 1614  ls ./RawData
+ 1615  cd ..
+ 1616  ls
+ 1617  python MakeFakeTimeseries.py "./RawData/Sc11.ntt"
+ 1618  python MakeFakeTimeseries.py "./RawData/Sc1.ntt"
+ 1619  ls ./RawDAta
+ 1620  ls ./RawData
+ 1621  pwd
+ 1622  ls
+ 1623  cd alext
+ 1624  ./curate_dataset "narp-alext/10547/2018-5-4_12-21-13"  "32051"
+ 1625  python MakeFakeTimeseries.py "./RawData/Sc10.ntt"
+ 1626  ./view_video "narp-alext/10547/2018-5-22_11-54" "32051"
+ 1627  ./view_video "narp-alext/10547/2018-5-22_11-54" 
+ 1628  ./view_video "narp-alext/10547/2018-5-22_11-54/" 
+ 1629  ls ./RawData
+ 1630  ls ./RawData/VT*
+ 1631  ./view_video "narp-alext/10547/2018-5-22_11-54-25" 
+ 1632  ls
+ 1633  python VideoSliderPlot.py
+ 1634  python VideoSliderPlot.py 1
+ 1635  ls
+ 1636  more make_tfiles
+ 1637  more MakeTFiles.py
+ 1638  more make_tfiles
+ 1639  vim make_tfiles
+ 1640  ./make_tfiles
+ 1641  ls interneuron
+ 1642  vim MakeTFiles.py
+ 1643  ./make_tfiles
+ 1644  vim MakeTFiles.py
+ 1645  ./make_tfiles
+ 1646  ls interneuron
+ 1647  ls
+ 1648  ./curate_dataset "narp-alext/10547/2018-5-4_12-21-13"  "32051"
+ 1649  ls
+ 1650  ls ./RawData
+ 1651  mkdir 05-04Cut
+ 1652  cp ./RawData/Sc10.*  ./05-04Cut/
+ 1653  ls 05-04*
+ 1654  cp ./RawData/Sc11.*  ./05-04Cut/
+ 1655  ./curate_dataset "narp-alext/10547/2018-5-3_7-42-4" "true" "32051"
+ 1656  ./cut_dataset "narp-alext/10547/2018-5-3_7-42-4" "true" "32051"
+ 1657  ./curate_dataset "narp-alext/10547/2018-5-3_7-42-4" "32051"
+ 1658  ./cut_dataset "narp-alext/10547/2018-5-2_10-12-53" "true" "32051"
+ 1659  ls
+ 1660  ./cut_dataset "narp-alext/10547/2018-5-2_10-35-23" "true" "32051"
+ 1661  ./cut_dataset "narp-alext/10547/2018-5-2_10-49-34" "true" "32051"
+ 1662  ./cut_dataset "narp-alext/10547/2018-5-2_10-4914-18 "true" "32051"
+ 1663  ./cut_dataset "narp-alext/10547/2018-5-2_10-4914-18" "true" "32051"
+ 1664  pwd
+ 1665  ./cut_dataset "narp-alext/10547/2018-5-15_8-41-56" "true" "32051"
+ 1666  ./cut_dataset "narp-alext/10547/2018-5-154_12-21-13" "true" "32051"
+ 1667  ./cut_dataset "narp-alext/10547/2018-5-4_12-21-13" "true" "32051"
+ 1668  ./cut_dataset "narp-alext/10547/2018-5-14_11-5-43" "true" "32051"
+ 1669  ./curate_dataset "narp-alext/10547/2018-5-14_11-5-43"  "32051"
+ 1670  ls ./RawData/
+ 1671  ls ./RawData/Sc6*
+ 1672  vim curate_dataset
+ 1673  vim curate_tetrode
+ 1674  ./curate_dataset "narp-alext/10547/2018-5-14_11-5-43"  "32051"
+ 1675  mkdir interneuron
+ 1676  cp ./RawData/Sc6.*  ./interneuron/
+ 1677  ls 05*
+ 1678  ls interneuron
+ 1679  ./cut_dataset "narp-alext/10547/2018-5-4_12-21-13" "true" "32051"
+ 1680  ls
+ 1681  ls 05-04Cut
+ 1682  ./cut_dataset "narp-alext/10547/2018-5-4_12-21-13" "true" "32051"
+ 1683  ./curate_dataset "narp-alext/10547/2018-5-4_12-21-13" "true" "32051"
+ 1684  ls
+ 1685  vim make_tfiles
+ 1686  ./make_tfiles
+ 1687  ls ./RawData
+ 1688  ./curate_dataset "narp-alext/10547/2018-5-4_12-21-13" "true" "32051"
+ 1689  ls ./RawData/*curated*
+ 1690  cp ./RawData/Sc10* ./05-04Cut/
+ 1691  cp ./RawData/Sc11* ./05-04Cut/
+ 1692  ./make_tfiles
+ 1693  ls
+ 1694  vim ShowWaveform.py
+ 1695  ./make_tfiles
+ 1696  vim ShowWaveform.py
+ 1697  ./make_tfiles
+ 1698  vim ShowWaveform.py
+ 1699  ./make_tfiles
+ 1700  vim ShowWaveform.py
+ 1701  ./make_tfiles
+ 1702  vim ./make_tfiles
+ 1703  ./make_tfiles
+ 1704  ls *.py
+ 1705  vim ShowWaveform.py
+ 1706  ls *.py
+ 1707  ./make_tfiles
+ 1708  vim ShowWaveform.py
+ 1709  ./make_tfiles
+ 1710  vim ShowWaveform.py
+ 1711  ./make_tfiles
+ 1712  vim ShowWaveform.py
+ 1713  ./make_tfiles
+ 1714  vim ShowWaveform.py
+ 1715  ./make_tfiles
+ 1716  vim ShowWaveform.py
+ 1717  ./make_tfiles
+ 1718  vim ShowWaveform.py
+ 1719  ./make_tfiles
+ 1720  vim ShowWaveform.py
+ 1721  ./make_tfiles
+ 1722  vim ShowWaveform.py
+ 1723  ./make_tfiles
+ 1724  vim ShowWaveform.py
+ 1725  ./make_tfiles
+ 1726  vim ShowWaveform.py
+ 1727  ./make_tfiles
+ 1728  vim ShowWaveform.py
+ 1729  ./make_tfiles
+ 1730  vim ShowWaveform.py
+ 1731  ./make_tfiles
+ 1732  vim ShowWaveform.py
+ 1733  ./make_tfiles
+ 1734  vim ShowWaveform.py
+ 1735  ./make_tfiles
+ 1736  vim ShowWaveform.py
+ 1737  ./make_tfiles
+ 1738  vim ShowWaveform.py
+ 1739  ./make_tfiles
+ 1740  vim ShowWaveform.py
+ 1741  ./make_tfiles
+ 1742  vim ShowWaveform.py
+ 1743  ./make_tfiles
+ 1744  vim ShowWaveform.py
+ 1745  ./make_tfiles
+ 1746  sudo apt-get install msttcorefont
+ 1747  sudo apt-get install msttcorefonts
+ 1748  ./make_tfiles
+ 1749  vim ShowWaveform.py
+ 1750  ./make_tfiles
+ 1751  rm ~/.cache/matplotlib -rf
+ 1752  ./make_tfiles
+ 1753  vim ShowWaveform.py
+ 1754  ./make_tfiles
+ 1755  vim ShowWaveform.py
+ 1756  sudo apt-install seaborne
+ 1757  sudo apt-get searborne
+ 1758  sudo pip install seaborn
+ 1759  vim ShowWaveform.py
+ 1760  ./make_tfiles
+ 1761  vim ShowWaveform.py
+ 1762  ./make_tfiles
+ 1763  vim ShowWaveform.py
+ 1764  ./make_tfiles
+ 1765  vim ShowWaveform.py
+ 1766  ./make_tfiles
+ 1767  vim ShowWaveform.py
+ 1768  ./make_tfiles
+ 1769  vim ShowWaveform.py
+ 1770  ./make_tfiles
+ 1771  vim ShowWaveform.py
+ 1772  ./make_tfiles
+ 1773  vim ShowWaveform.py
+ 1774  ./make_tfiles
+ 1775  vim ShowWaveform.py
+ 1776  ./make_tfiles
+ 1777  vim ShowWaveform.py
+ 1778  ./make_tfiles
+ 1779  vim ShowWaveform.py
+ 1780  ./make_tfiles
+ 1781  vim ShowWaveform.py
+ 1782  ./make_tfiles
+ 1783  vim ShowWaveform.py
+ 1784  ./make_tfiles
+ 1785  vim ShowWaveform.py
+ 1786  ./make_tfiles
+ 1787  vim ShowWaveform.py
+ 1788  ./make_tfiles
+ 1789  vim ShowWaveform.py
+ 1790  ./make_tfiles
+ 1791  vim ShowWaveform.py
+ 1792  ls
+ 1793  more MakeTFiles.py
+ 1794  ls 
+ 1795  vim ShowWaveform.py
+ 1796  ./make_tfiles
+ 1797  ls *.npz
+ 1798  ls
+ 1799  ls interneuron
+ 1800  vim PlotWaveform.py
+ 1801  python Plotwaveform.py
+ 1802  python PlotWaveform.py
+ 1803  vim PlotWaveform.py
+ 1804  python PlotWaveform.py
+ 1805  vim PlotWaveform.py
+ 1806  python PlotWaveform.py
+ 1807  vim PlotWaveform.py
+ 1808  python PlotWaveform.py
+ 1809  vim PlotWaveform.py
+ 1810  python PlotWaveform.py
+ 1811  ls 05*
+ 1812  vim PlotWaveform.py
+ 1813  python PlotWaveform.py
+ 1814  vim PlotWaveform.py
+ 1815  python PlotWaveform.py
+ 1816  vim PlotWaveform.py
+ 1817  python PlotWaveform.py
+ 1818  vim PlotWaveform.py
+ 1819  python PlotWaveform.py
+ 1820  vim PlotWaveform.py
+ 1821  python PlotWaveform.py
+ 1822  vim PlotWaveform.py
+ 1823  python PlotWaveform.py
+ 1824  vim PlotWaveform.py
+ 1825  python PlotWaveform.py
+ 1826  vim PlotWaveform.py
+ 1827  python PlotWaveform.py
+ 1828  vim PlotWaveform.py
+ 1829  python PlotWaveform.py
+ 1830  vim PlotWaveform.py
+ 1831  python PlotWaveform.py
+ 1832  vim PlotWaveform.py
+ 1833  python PlotWaveform.py
+ 1834  vim PlotWaveform.py
+ 1835  python PlotWaveform.py
+ 1836  vim PlotWaveform.py
+ 1837  python PlotWaveform.py
+ 1838  vim PlotWaveform.py
+ 1839  python PlotWaveform.py
+ 1840  vim PlotWaveform.py
+ 1841  python PlotWaveform.py
+ 1842  vim PlotWaveform.py
+ 1843  python PlotWaveform.py
+ 1844  vim PlotWaveform.py
+ 1845  python PlotWaveform.py
+ 1846  vim PlotWaveform.py
+ 1847  python PlotWaveform.py
+ 1848  vim PlotWaveform.py
+ 1849  python PlotWaveform.py
+ 1850  vim PlotWaveform.py
+ 1851  python PlotWaveform.py
+ 1852  vim PlotWaveform.py
+ 1853  python PlotWaveform.py
+ 1854  vim PlotWaveform.py
+ 1855  python PlotWaveform.py
+ 1856  vim PlotWaveform.py
+ 1857  python PlotWaveform.py
+ 1858  vim PlotWaveform.py
+ 1859  python PlotWaveform.py
+ 1860  vim PlotWaveform.py
+ 1861  python PlotWaveform.py
+ 1862  vim PlotWaveform.py
+ 1863  python PlotWaveform.py
+ 1864  vim PlotWaveform.py
+ 1865  python PlotWaveform.py
+ 1866  vim PlotWaveform.py
+ 1867  python PlotWaveform.py
+ 1868  vim PlotWaveform.py
+ 1869  python PlotWaveform.py
+ 1870  vim PlotWaveform.py
+ 1871  python PlotWaveform.py
+ 1872  vim PlotWaveform.py
+ 1873  python PlotWaveform.py
+ 1874  vim PlotWaveform.py
+ 1875  python PlotWaveform.py
+ 1876  vim PlotWaveform.py
+ 1877  python PlotWaveform.py
+ 1878  vim PlotWaveform.py
+ 1879  python PlotWaveform.py
+ 1880  vim PlotWaveform.py
+ 1881  python PlotWaveform.py
+ 1882  vim PlotWaveform.py
+ 1883  python PlotWaveform.py
+ 1884  vim PlotWaveform.py
+ 1885  python PlotWaveform.py
+ 1886  vim PlotWaveform.py
+ 1887  python PlotWaveform.py
+ 1888  vim PlotWaveform.py
+ 1889  python PlotWaveform.py
+ 1890  vim PlotWaveform.py
+ 1891  python PlotWaveform.py
+ 1892  vim PlotWaveform.py
+ 1893  python PlotWaveform.py
+ 1894  vim PlotWaveform.py
+ 1895  python PlotWaveform.py
+ 1896  vim PlotWaveform.py
+ 1897  python PlotWaveform.py
+ 1898  vim PlotWaveform.py
+ 1899  python PlotWaveform.py
+ 1900  vim PlotWaveform.py
+ 1901  python PlotWaveform.py
+ 1902  vim PlotWaveform.py
+ 1903  python PlotWaveform.py
+ 1904  vim PlotWaveform.py
+ 1905  python PlotWaveform.py
+ 1906  vim PlotWaveform.py
+ 1907  python PlotWaveform.py
+ 1908  vim PlotWaveform.py
+ 1909  python PlotWaveform.py
+ 1910  ls
+ 1911  vim PlotWaveform.py
+ 1912  ls
+ 1913  python PlotWaveform.py
+ 1914  vim PlotLFP.py
+ 1915  python PlotLFP.py
+ 1916  vim PlotLFP.py
+ 1917  python PlotLFP.py
+ 1918  vim PlotLFP.py
+ 1919  python PlotLFP.py
+ 1920  vim PlotLFP.py
+ 1921  python PlotLFP.py
+ 1922  vim PlotLFP.py
+ 1923  python PlotLFP.py
+ 1924  vim PlotLFP.py
+ 1925  python PlotLFP.py
+ 1926  vim PlotLFP.py
+ 1927  python PlotLFP.py
+ 1928  ;s 05*
+ 1929  ls 05*
+ 1930  ls
+ 1931  vim ShowWaveform.py
+ 1932  ls
+ 1933  ./make_tfiles
+ 1934  vim ShowWaveform.py
+ 1935  ./make_tfiles
+ 1936  grep savez *.py
+ 1937  ls inter*
+ 1938  grep npzfile *.py
+ 1939  ls
+ 1940  more MakeTFiles.py
+ 1941  ls
+ 1942  more make_tfiles
+ 1943  vim make_tfiles
+ 1944  ./make_tfiles
+ 1945  ls 05*
+ 1946  more MakeTFiles.py
+ 1947  vim MakeTFiles.py
+ 1948  python PlotWaveform.py
+ 1949  more MakeTFiles.py
+ 1950  ls *.py
+ 1951  more ShowWaveform.py
+ 1952  python
+ 1953  ls
+ 1954  more MakeTFiles.py
+ 1955  more ShowWaveform.py
+ 1956  ls
+ 1957  ls 05*
+ 1958  ls 
+ 1959  more find_best_theta
+ 1960  more Moving_vs_NotMoving.py
+ 1961  ls
+ 1962  more EEGUtils.py
+ 1963  vim EEGUtils.py
+ 1964  python PlotWaveform.py
+ 1965  vim PlotWaveform.py
+ 1966  python PlotWaveform.py
+ 1967  vim PlotWaveform.py
+ 1968  python PlotWaveform.py
+ 1969  vim PlotWaveform.py
+ 1970  python PlotWaveform.py
+ 1971  vim PlotWaveform.py
+ 1972  python PlotWaveform.py
+ 1973  vim PlotWaveform.py
+ 1974  python PlotWaveform.py
+ 1975  ls *.py
+ 1976  more MakeTFiles.py
+ 1977  vim PlotWaveform.py
+ 1978  more MakeTFiles.py
+ 1979  python PlotWaveform.py
+ 1980  vim PlotWaveform.py
+ 1981  python PlotWaveform.py
+ 1982  vim PlotWaveform.py
+ 1983  python PlotWaveform.py
+ 1984  vim PlotWaveform.py
+ 1985  python PlotWaveform.py
+ 1986  vim PlotWaveform.py
+ 1987  python PlotWaveform.py
+ 1988  vim PlotWaveform.py
+ 1989  python PlotWaveform.py
+ 1990  more MakeTFiles.py
+ 1991  ls history*
+ 1992  ls 
+ 1993  history > history.out
